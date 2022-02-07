@@ -1,0 +1,52 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "radio tectoy",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "Fechar",
+            "Close",
+            "Sair"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "HelloWorldIntent",
+          "slots": [],
+          "samples": [
+            "olá",
+            "como vai você",
+            "diga oi mundo",
+            "diga oi",
+            "oi",
+            "diga olá mundo",
+            "diga olá"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PauseIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ResumeIntent",
+          "samples": []
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "3"
+}

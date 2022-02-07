@@ -1,0 +1,69 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "pt-BR": {
+          "summary": "Sample Short Description",
+          "examplePhrases": [
+            "Alexa abra olá mundo",
+            "olá",
+            "ajuda"
+          ],
+          "keywords": [],
+          "name": "Tectoy",
+          "description": "Sample Full Description",
+          "smallIconUri": "file://assets/images/pt-BR_smallIconUri.png",
+          "largeIconUri": "file://assets/images/pt-BR_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Diga Alexa abra radio tectoy",
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionMode": "PUBLIC",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:905290607879:function:6619ca5d-0860-4a1d-866a-836d1eef071a:Release_0"
+        },
+        "interfaces": [
+          {
+            "type": "AUDIO_PLAYER"
+          }
+        ],
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:905290607879:function:6619ca5d-0860-4a1d-866a-836d1eef071a:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:905290607879:function:6619ca5d-0860-4a1d-866a-836d1eef071a:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:905290607879:function:6619ca5d-0860-4a1d-866a-836d1eef071a:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "pt-BR": {}
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}
